@@ -265,13 +265,14 @@ section { padding: 76px 0; }
   text-align: center;
 }
 
-.section-head .eyebrow {
+.eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.78rem;
   color: var(--teal);
   font-weight: 700;
   margin-bottom: 10px;
+  display: block;
 }
 
 /* value props */
@@ -534,14 +535,7 @@ td { color: var(--steel); }
   color: var(--white);
   padding: 60px 0;
 }
-.page-hero .eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.78rem;
-  color: #8fd3d9;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
+.page-hero .eyebrow { color: #8fd3d9; }
 .page-hero h1 { color: var(--white); margin-bottom: 10px; }
 .page-hero p { color: #c7d6dd; max-width: 60ch; margin: 0; }
 
